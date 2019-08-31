@@ -37,7 +37,7 @@
 </p>
 
 <div>
-    <img src="./screenshot.svg" />
+    <img src="./screenshot.png" />
 </div>
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
