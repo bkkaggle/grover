@@ -6,3 +6,4 @@ tensorboard==1.13.1
 tensorflow-gpu==1.13.1
 tqdm==4.31.1
 requests==2.22.0
+fire
