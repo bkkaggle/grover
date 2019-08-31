@@ -1,9 +1,9 @@
 <h1 align='center'>
-    Grover
+    Grover • 🤖📰
 </h1>
 
 <h4 align='center'>
-    An easy interface to Grover (https://github.com/rowanz/grover)
+    An easy way to use Grover (https://github.com/rowanz/grover)
 </h4>
 
 <p align='center'>
@@ -39,6 +39,8 @@
 <div>
     <img src="./screenshot.png" />
 </div>
+
+<p align='center'><strong>Made by <a href='https://github.com/bkkaggle'>Bilal Khan</a> • https://bkkaggle.github.io</strong></p>
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -125,4 +127,4 @@ This project is licensed under the Apache 2.0 license as in (https://github.com/
 
 This project contains code from (https://github.com/rowanz/grover)
 
-This README is based on (https://github.com/bkkaggle/pytorch_zoo)
+This README is based on (https://github.com/bkkaggle/pytorch_zoo) and (https://github.com/rish-16/gpt2client)
