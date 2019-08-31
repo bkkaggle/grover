@@ -18,7 +18,7 @@
 
 -   install https://marketplace.visualstudio.com/items?itemName=rafaelmaiolla.remote-vscode on vscode
 -   `cmd-shift-p` and type Remote: Start Server
--   `gcloud compute grover --ssh-flag="-R 52698:localhost:52698"`
+-   `gcloud compute ssh grover --ssh-flag="-R 52698:localhost:52698"`
 -   `sudo apt -y install ruby && sudo gem install rmate`
 -   to edit a file run `rmate path/to/file`
 
