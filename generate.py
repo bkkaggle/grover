@@ -49,6 +49,6 @@ def generate(title, author, date, domain, checkpoint=None):
     os.system("rm params.jsonl")
     os.system("rm generated.jsonl")
 
+
 if __name__ == "__main__":
     fire.Fire(generate)
-
