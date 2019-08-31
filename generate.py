@@ -5,7 +5,7 @@ import subprocess
 import fire
 
 
-def generate(title, author, date, domain, checkpoint=None):
+def generate(title, author, date, domain, checkpoint="models/base/model.ckpt"):
     params = {
         "url": "",
         "url_used": "",
@@ -20,9 +20,6 @@ def generate(title, author, date, domain, checkpoint=None):
         "split": "gen",
         "inst_index": 1,
     }
-
-    if checkpoint == None:
-        checkpoint = "models/base/model.ckpt"
 
     print("\nParameters:\n")
     print(f"Title: {title}")
