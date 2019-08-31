@@ -1,5 +1,3 @@
-# Grover
-
 <h1 align='center'>
     Grover
 </h1>
@@ -39,7 +37,7 @@
 </p>
 
 <div>
-    <img src="./screenshot.png" />
+    <img src="./screenshot.svg" />
 </div>
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
