@@ -22,7 +22,7 @@
     <a href="http://makeapullrequest.com">
         <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
     </a>
-    <a href="https://github.com/bkkaggle/pytorch_zoo/pulls">
+    <a href="https://github.com/bkkaggle/grover/pulls">
         <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/bkkaggle/grover">
     </a>
 
