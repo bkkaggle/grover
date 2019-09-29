@@ -81,7 +81,7 @@ Just fork my kernel: https://www.kaggle.com/bkkaggle/grover-article-generation
 -   `git clone https://github.com/bkkaggle/grover.git`
 -   `cd grover`
 -   `conda create -y -n grover python=3.6 && source activate grover && pip install -r requirements-gpu.txt`
--   `python download_model.py base`
+-   `python download_model.py mega`
 
 ### Vscode remote setup
 
@@ -108,7 +108,8 @@ _Arguments_:
 `--author` (string): The author of the generated article  
 `--date` (string): The date of the generated article  
 `--domain` (string): The domain name of the article's URL  
-`--checkpoint` (string): The path to a saved model checkpoint (defaults to: `models/base/model.ckpt`)
+`--config` (string): The path to a model configuration file (defaults to: `lm/configs/mega.json`)
+`--checkpoint` (string): The path to a saved model checkpoint (defaults to: `models/mega/model.ckpt`)
 
 # Contributing
 

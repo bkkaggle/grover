@@ -5,7 +5,7 @@ import subprocess
 import fire
 
 
-def generate(title, author, date, domain, checkpoint="models/base/model.ckpt"):
+def generate(title, author, date, domain, config="lm/configs/mega.json", checkpoint="models/mega/model.ckpt"):
     params = {
         "url": "",
         "url_used": "",
@@ -32,7 +32,7 @@ def generate(title, author, date, domain, checkpoint="models/base/model.ckpt"):
         json.dump(params, f)
 
     subprocess.run(
-        f"PYTHONPATH=$(pwd) python sample/contextual_generate.py -model_config_fn lm/configs/base.json -model_ckpt {checkpoint} -metadata_fn params.jsonl -out_fn generated.jsonl",
+        f"PYTHONPATH=$(pwd) python sample/contextual_generate.py -model_config_fn {config} -model_ckpt {checkpoint} -metadata_fn params.jsonl -out_fn generated.jsonl",
         stdout=open(os.devnull, "w"),
         stderr=subprocess.STDOUT,
         shell=True,
