@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align='center'>
-    An easy way to use Grover (https://github.com/rowanz/grover)
+    An easy way to use Grover (from: https://github.com/rowanz/grover)
 </h4>
 
 <p align='center'>
